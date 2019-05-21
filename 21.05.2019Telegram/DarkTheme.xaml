@@ -1,0 +1,24 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:_21._05._2019Telegram">
+
+    <Style TargetType="StackPanel">
+        <Style.Setters>
+            <Setter Property="Background" Value="DarkBlue"/>
+        </Style.Setters>
+    </Style>
+    
+    <Style TargetType="Grid">
+        <Style.Setters>
+            <Setter Property="Background" Value="Blue"></Setter>
+        </Style.Setters>
+    </Style>
+
+    <Style TargetType="ListBox">
+        <Style.Setters>
+            <Setter Property="Background" Value="Black"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="15"/>
+        </Style.Setters>
+    </Style>
+</ResourceDictionary>
