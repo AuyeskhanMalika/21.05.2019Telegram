@@ -4,6 +4,11 @@
              xmlns:local="clr-namespace:_21._05._2019Telegram"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="LightTheme.xaml"/>
+                <ResourceDictionary Source="DarkTheme.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
